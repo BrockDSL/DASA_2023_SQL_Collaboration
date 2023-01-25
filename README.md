@@ -51,6 +51,6 @@ Brock [DSL](https://brocku.ca/library/dsl) and Goodman [DASA](https://www.goodma
 
 - Online via [Teams](https://teams.microsoft.com/l/team/19%3aOMkVAxEBoztV24XPa_hxvsTLU-cgepsoOFw-EvLQQl01%40thread.tacv2/conversations?groupId=30358127-0c20-482b-b405-343e8584b09e&tenantId=76ae1115-1efc-4af2-a536-e2b2443af1a0)
 
-- Please download the [Notebook](https://github.com/BrockDSL/DASA_2023_SQL_Collaboration/raw/main/w4.html) for the session
+- We'll be working from this [Worksheet](https://brockdsl.github.io/DASA_2023_SQL_Collaboration/week4_questions.html) for the session
 
 - We will also be using this [Spreadsheet](https://github.com/BrockDSL/DASA_2023_SQL_Collaboration/raw/main/week_4_emissions.csv) to construct our database
