@@ -331,13 +331,29 @@ kbd {
 
 <body>
 
-<h1 id="toc_0">Week 4</h1>
+<p><img src="dsl_logo.png" alt="dsl_logo"></p>
 
-<p>For this week we are going to convert a CSV file from the Open Data Portal of the Government of Canada.</p>
+<h1 id="toc_0">SQL Workshop - Week 4</h1>
 
-<p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv" target="tutorial">Start Environment</a></p>
+<p>We&#39;ve spent 3 weeks looking at the Northwind database and developing our understanding of how to build complex queries involving multiple tables. We also used the Franchise app to explore an SQLite file.</p>
 
-<h1 id="toc_1">Examples to Get Ready</h1>
+<p>Today we are going to changes things a bit and look at a different data set, using a different SQL client.</p>
+
+<h2 id="toc_1">The Data</h2>
+
+<p><a href="https://open.canada.ca/data/en/dataset/6bed41cd-9816-4912-a2b8-b0b224909396" target="_blank">Government of Canada’s Greenhouse Gas Emissions Inventory</a></p>
+
+<p>We&#39;ll be using a modified version of table 5.</p>
+
+<h2 id="toc_2">The Environment</h2>
+
+<p>We&#39;ll be using a platform called <a href="https://datasette.io/" target="_blank">Datasette</a> that is full featured set of tools that allows you to explore data from spreadsheets and turn them into SQL. We are using a web-based version of this called <a href="https://lite.datasette.io/" target="_blank">Datasette Lite</a></p>
+
+<h1 id="toc_3">Let&#39;s begin</h1>
+
+<p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv" target="tutorial">Start</a> the environment and view the Data.</p>
+
+<h1 id="toc_4">Examples to Get Ready</h1>
 
 <p>Before clicking through, try to read the query and determine what it will do...</p>
 
@@ -365,11 +381,11 @@ kbd {
 
 <p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv#/data?sql=SELECT+*+FROM+%22Emissions%22+WHERE%09%22Energy+category%22+LIKE+%22gasoline%22" target="tutorial">View in Action</a></p>
 
-<h1 id="toc_2">Questions</h1>
+<h1 id="toc_5">Questions</h1>
 
-<p>Let&#39;s try to answer the Level 1 questions during the session. You can try the Level 2 questions on your own. (Answers can be found online, link will be shared in the chat box)</p>
+<p>Let&#39;s try to answer the Level 1 questions during the session. </p>
 
-<h2 id="toc_3">Level 1</h2>
+<h2 id="toc_6">Level 1</h2>
 
 <p>The answers are partially completed... just complete the SQL statement to complete the question. When we share our results in the chat box.</p>
 
@@ -378,27 +394,39 @@ How many different Federal Organizations are there in the database? (Display the
 
 <p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv#/data" target="tutorial">Try This question</a></p>
 
+<p><a target="_blank" href="https://forms.office.com/r/HinRDcvLjZ">Submit your answer</a></p>
+
 <p><strong>Q2</strong>
 What are the different values in used in the <em>Energy category</em>? (Display them with counts of how often they appear in the database)</p>
 
 <p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv#/data" target="tutorial">Try This question</a></p>
+
+<p><a target="_blank" href="https://forms.office.com/r/6FsfJ06fNd">Submit your answer</a></p>
 
 <p><strong>Q3</strong>
 What category of <em>Energy category</em> has the highest emissions in kilotonne?</p>
 
 <p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv#/data" target="tutorial">Try This question</a></p>
 
+<p><a target="_blank" href="https://forms.office.com/r/kwxg1Ug85u">Submit your answer</a></p>
+
 <p><strong>Q4</strong>
 What is the average <em>Emissions</em> per <em>Federal Organization</em>?</p>
 
 <p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv#/data" target="tutorial">Try This question</a></p>
 
+<p><a target="_blank" href="https://forms.office.com/r/qFkhf1rUPE">Submit your answer</a></p>
+
 <p><strong>Q5</strong>
-What is the average emissions in kilotonnes for the whole datase?</p>
+What is the average emissions in kilotonnes for the whole data set?</p>
 
 <p><a href="https://lite.datasette.io/?csv=https://raw.githubusercontent.com/BrockDSL/DASA_2023_SQL_Collaboration/main/Emissions.csv#/data" target="tutorial">Try This question</a></p>
 
-<h2 id="toc_4">Level 2</h2>
+<p><a target="_blank" href="https://forms.office.com/r/n8DwhP3XYp">Submit your answer</a></p>
+
+<h2 id="toc_7">Level 2</h2>
+
+<p>Submit all of your answer for Level 2 questions directly in this <a href="https://forms.office.com/r/Qcdjm9rMeT" target="_blank">form</a>.</p>
 
 <p><strong>Q6</strong>
 What is the total emissions from &quot;Health Canada&quot; in the 2005-6 Fiscal year? You can combine multiple LIKE statements with AND</p>
