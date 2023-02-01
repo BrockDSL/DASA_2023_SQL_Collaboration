@@ -67,7 +67,7 @@ Let's try to answer the Level 1 questions during the session.
 
 ## Level 1
 
-The answers are partially completed... just complete the SQL statement to complete the question. When we share our results in the chat box.
+The answers are partially completed... Submit the SQL query that you wrote to answer the question in each question's form.
 
 **Q1**
 How many different Federal Organizations are there in the database? (Display them with counts of how often they appear in the database)
@@ -106,10 +106,7 @@ What is the average emissions in kilotonnes for the whole data set?
 
 ## Level 2
 
-
-Submit all of your answer for Level 2 questions directly in this <a href="https://forms.office.com/r/Qcdjm9rMeT" target="_blank">form</a>.
-
-
+Submit all of your answer for Level 2 questions directly in this <a href="https://forms.office.com/r/Qcdjm9rMeT" target="_blank">form</a>. Just submit the SQL query that you wrote to answer the question.
 
 **Q6**
 What is the total emissions from "Health Canada" in the 2005-6 Fiscal year? You can combine multiple LIKE statements with AND
